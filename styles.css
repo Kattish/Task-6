@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Arial;
+    min-height: 100%;
+    height: 100%;
+    background: #d3d3d32e;
+}
+
+header {
+    color: white;
+    background: #727070;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.header-text {
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+h1 span {
+    font-weight: normal;
+    color: #62ceaa;
+}
+
+.header-text span, footer > span {
+    color: #ee97c0;
+}
+
+section {
+    margin-top: 20%;
+}
+
+h2, p {
+    text-align: center;
+    padding: 10px;
+}
+
+.content-box {
+    line-height: 0.5cm;
+}
+
+.content-box h2 {
+    color: #605e5e;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row > div {
+    border: 1px solid #00000012;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+    color: #6e6d6d;
+}
+
+.row h3 {
+    text-align: center;
+}
+
+.row .item-green {
+    border-top: 3px solid #00800099
+}
+
+.item-green span {
+    color: #00800099;
+}
+
+.item-green .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#container-image {
+    text-align: center;
+    border: none;
+    height: 15%;
+}
+
+.row .item-red {
+    border-top: 3px solid #db5aba;
+}
+
+.item-red .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.row .item-blue {
+    border-top: 3px solid #32b3dd;
+}
+
+.item-blue .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.row .item-purple {
+    border-top: 3px solid #ac3cac;
+}
+
+.item-purple .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.row .item-lightgreen {
+    border-top: 3px solid #1dc18a8a
+}
+
+.item-lightgreen .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.row .item-orange {
+    border-top: 3px solid orange;
+}
+
+.item-orange .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+footer {
+    background: black;
+    color: grey;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: x-small;
+}
